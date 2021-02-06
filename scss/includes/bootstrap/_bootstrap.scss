@@ -1,0 +1,55 @@
+/*!
+ * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+ * Boostrap files are located in src/bootstrap5/scss - Do not modify them directly,
+ * make copies in here and change the paths accordingly
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "../../../src/bootstrap5/scss/functions"; 
+@import "variables";
+@import "../../../src/bootstrap5/scss/mixins";
+@import "../../../src/bootstrap5/scss/utilities"; 
+
+// Layout & components
+@import "../../../src/bootstrap5/scss/root";
+@import "../../../src/bootstrap5/scss/reboot";
+@import "../../../src/bootstrap5/scss/type";
+@import "../../../src/bootstrap5/scss/images";
+@import "../../../src/bootstrap5/scss/containers";
+@import "../../../src/bootstrap5/scss/grid";
+@import "../../../src/bootstrap5/scss/tables";
+@import "../../../src/bootstrap5/scss/forms";
+@import "../../../src/bootstrap5/scss/buttons";
+
+@import "../../../src/bootstrap5/scss/transitions";
+//@import "../../../src/bootstrap5/scss/dropdown";
+@import "../../../src/bootstrap5/scss/button-group";
+@import "../../../src/bootstrap5/scss/nav";
+@import "../../../src/bootstrap5/scss/navbar";
+//@import "../../../src/bootstrap5/scss/card";
+//@import "../../../src/bootstrap5/scss/accordion";
+//@import "../../../src/bootstrap5/scss/breadcrumb";
+//@import "../../../src/bootstrap5/scss/pagination"; 
+@import "../../../src/bootstrap5/scss/badge";
+@import "../../../src/bootstrap5/scss/alert"; 
+//@import "../../../src/bootstrap5/scss/progress";
+//@import "../../../src/bootstrap5/scss/list-group";
+//@import "../../../src/bootstrap5/scss/close";
+//@import "../../../src/bootstrap5/scss/toasts"; 
+//@import "../../../src/bootstrap5/scss/modal";
+//@import "../../../src/bootstrap5/scss/tooltip";
+//@import "../../../src/bootstrap5/scss/popover";
+//@import "../../../src/bootstrap5/scss/carousel";
+//@import "../../../src/bootstrap5/scss/spinners";
+
+// Helpers
+@import "../../../src/bootstrap5/scss/helpers";
+
+// Utilities
+@import "../../../src/bootstrap5/scss/utilities/api";
+// scss-docs-end import-stack

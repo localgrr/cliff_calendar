@@ -1,0 +1,69 @@
+.full-calendar {
+
+	.calendar-heading {
+		font-size: 22px;
+		font-weight: bold;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.full-calendar-navigation {
+
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		padding-bottom: 20px;
+
+		.last-month {
+			padding-left: 20px;
+		}
+
+		.next-month {
+			padding-right: 20px;
+		}
+
+		#full_calendar_datepicker {
+			width: auto;
+		}
+	}
+
+	table {
+
+		table-layout: fixed;
+
+		&.full {
+
+			.short {
+				display: none; 
+			}
+
+		}
+
+		&.short {
+
+			.full {
+
+				display: none;
+			}
+		}
+
+		.grid-filler {
+
+			opacity: 0.5;
+
+		}
+
+		.selected-date {
+
+			background: #000;
+			color: #fff;
+		}
+
+		.today {
+
+			background: cyan;
+			color: #000;
+		}
+
+	}
+}
