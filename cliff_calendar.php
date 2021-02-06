@@ -16,7 +16,7 @@ include "includes/enqueue.php";
 include "includes/functions.php";
 include "includes/full_calendar.php";
 include "includes/add_event.php";
-include "includes/cliff_calendar_admin.php";
+include "includes/calendar_admin.php";
 
 $cliff_full_calendar = new cliff_full_calendar();
 $cliff_enqueue = new cliff_enqueue();
